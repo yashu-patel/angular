@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+  #menu{
+    float: left;
+    
+    
+  }
+  #menu ul{
+    list-style:none;
+    display: inline;
+  }
+  #menu ul li{
+  display: inline;
+    margin: 40px;
+  }
+  #searchForm{
+    float: right;
+    
+  }
+  #page{
+    border:10px solid #51a351;
+    border: 0px;
+    background:#485563;
+    margin: 0px;
+    padding: 60px;
+    
+  }
+  
+  .container {
+    padding-top:0px;
+    
+  }
+  
+  .pointable {
+    cursor: pointer;
+  }
+  
+  .button {
+    color: #bd362f;
+  }
+  
+  [hidden] {
+    display: none !important;
+  }
+  
+  .toastr-success {
+    background-color: #51a351;
+  }
+  .toastr-error {
+    background-color: #bd362f;
+  }
+  .toastr-info {
+    background-color: #2f96b4;
+  }
+  .toastr-warning {
+    background-color: #f89406;
+  }
